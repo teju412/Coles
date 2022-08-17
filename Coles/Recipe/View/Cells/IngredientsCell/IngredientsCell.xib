@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="IngredientsCell" customModule="colus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="328" height="126"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="328" height="126"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kvo-dG-fDU">
+                        <rect key="frame" x="12" y="2" width="304" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="x0S-Mn-2MC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uEU-T4-fY2">
+                        <rect key="frame" x="12" y="34" width="304" height="90"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Label hfdbjhsbgjlfbdghjlbdfjp fd fudge fdgkdfhkj gfd ghudfkj fuph dfkgfd">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="14" name="TrebuchetMS"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" headIndent="12" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Kvo-dG-fDU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="12" id="6MA-hU-sp3"/>
+                <constraint firstItem="uEU-T4-fY2" firstAttribute="trailing" secondItem="Kvo-dG-fDU" secondAttribute="trailing" id="Pfu-Ot-iNj"/>
+                <constraint firstItem="Kvo-dG-fDU" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2" id="Ww5-CJ-mcU"/>
+                <constraint firstItem="uEU-T4-fY2" firstAttribute="leading" secondItem="Kvo-dG-fDU" secondAttribute="leading" id="bAh-Xd-3sE"/>
+                <constraint firstItem="uEU-T4-fY2" firstAttribute="top" secondItem="Kvo-dG-fDU" secondAttribute="bottom" constant="8" id="eUr-yv-bSb"/>
+                <constraint firstAttribute="trailing" secondItem="Kvo-dG-fDU" secondAttribute="trailing" constant="12" id="fjJ-5e-1xX"/>
+                <constraint firstAttribute="bottom" secondItem="uEU-T4-fY2" secondAttribute="bottom" constant="2" id="gbx-ys-URD"/>
+            </constraints>
+            <size key="customSize" width="328" height="126"/>
+            <connections>
+                <outlet property="ingredientsLbl" destination="uEU-T4-fY2" id="TQt-DJ-Hbr"/>
+            </connections>
+            <point key="canvasLocation" x="333.33333333333337" y="103.125"/>
+        </collectionViewCell>
+    </objects>
+</document>
